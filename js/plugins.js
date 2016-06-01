@@ -21,6 +21,7 @@ jQuery(document).on('bootstrap3:plugins', function(event) {
     /* DOKUWIKI:include js/plugins/explain.js */
     /* DOKUWIKI:include js/plugins/gallery.js */
     /* DOKUWIKI:include js/plugins/include.js */
+    /* DOKUWIKI:include js/plugins/navi.js */
     /* DOKUWIKI:include js/plugins/inlinetoc.js */
     /* DOKUWIKI:include js/plugins/overlay.js */
     /* DOKUWIKI:include js/plugins/publish.js */

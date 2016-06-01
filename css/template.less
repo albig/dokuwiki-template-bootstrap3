@@ -412,6 +412,14 @@ header {
       color: inherit;
       text-decoration: none;
     }
+  .level1.close {
+      opacity: 1;
+  }
+
+
+  .panel-heading {
+    cursor: pointer;
+  }
 
     i {
       padding-right: 5px;
@@ -424,6 +432,19 @@ header {
     li {
       list-style-type: none;
       list-style-image: none !important;
+
+      a {
+        padding: 5px 10px;
+        font-size: 12px;
+      }
+
+      a.urlextern,
+      a.mail,
+      a.mediafile {
+        padding-left: 28px;
+        background-position: 8px center;
+      }
+
     }
 
   }
