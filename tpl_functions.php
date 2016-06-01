@@ -473,6 +473,7 @@ function bootstrap3_lists($html) {
 
   // Remove all <span class="curid"/> tags
   $output = preg_replace('/<span class="curid">(.*?)<\/span>/', '$1', $output);
+  $output = preg_replace('/<span class="current">(.*?)<\/span>/', '$1', $output);
 
   // Move the Font-Icon inside the anchor
   $output = preg_replace('/<i (.+?)><\/i> <a (.+?)>(.+?)<\/a>/', '<a $2><i $1></i> $3</a>', $output);

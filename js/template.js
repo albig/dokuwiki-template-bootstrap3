@@ -813,3 +813,4 @@ jQuery(document).on('bootstrap3:components', function(e) {
   }, 0);
 
 });
+
