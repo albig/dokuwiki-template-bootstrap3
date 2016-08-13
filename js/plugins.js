@@ -20,6 +20,7 @@ jQuery(document).on('bootstrap3:plugins', function(e) {
     /* DOKUWIKI:include js/plugins/include.js */
     /* DOKUWIKI:include js/plugins/navi.js */
     /* DOKUWIKI:include js/plugins/inlinetoc.js */
+    /* DOKUWIKI:include js/plugins/overlay.js */
     /* DOKUWIKI:include js/plugins/publish.js */
     /* DOKUWIKI:include js/plugins/tag.js */
     /* DOKUWIKI:include js/plugins/tagging.js */
