@@ -29,9 +29,4 @@ if ($discussion.length) {
     $discussion.find('.toolbutton').addClass('btn btn-xs');
   });
 
-  var discuss = $discussion.find(".hfeed .hentry").size();
-  if (discuss == 0) {
-       jQuery("#comment_wrapper").hide();
-  };
-
 }
