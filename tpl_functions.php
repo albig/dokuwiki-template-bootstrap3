@@ -206,7 +206,7 @@ function bootstrap3_toolsevent($toolsname, $items, $view='main', $return = false
 
         case 'plugin_move':
           $icon = 'i-cursor text-muted';
-          $html = preg_replace('/<a href=""><span>(.*?)<\/span>/', '<a href="javascript:void(0)" title="$1"><span>$1</span></a>', $html);
+          $html = preg_replace('/<a href=""><span>(.*?)<\/span><\/a>/', '<a href="javascript:void(0)" title="$1"><span>$1</span></a>', $html);
           break;
 
         case 'overlay':
@@ -1751,8 +1751,8 @@ function bootstrap3_content($content) {
 
   // Revisions & Recents
   if ($ACT == 'revisions' || $ACT == 'recent') {
-    $search  = array('class="sizechange positive"', 'class="sizechange negative"', 'class="minor"');
-    $replace = array('class="sizechange positive label label-success"', 'class="sizechange negative label label-danger"', 'class="minor text-muted"');
+    $search  = array('class="sizechange positive"', 'class="sizechange negative"', 'class="sizechange"', 'class="minor"');
+    $replace = array('class="sizechange positive label label-success"', 'class="sizechange negative label label-danger"', 'class="sizechange label label-default"', 'class="minor text-muted"');
     $content = str_replace($search, $replace, $content);
   }
 
