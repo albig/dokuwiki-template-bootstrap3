@@ -87,14 +87,14 @@ $wiki_home_link = (bootstrap3_conf('homePageURL') ? bootstrap3_conf('homePageURL
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
   (function() {
-    var u="//dadu.eu/piwik/";
+    var u="//piwik.abigga.de/";
     _paq.push(['setTrackerUrl', u+'piwik.php']);
     _paq.push(['setSiteId', 13]);
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-<noscript><p><img src="//dadu.eu/piwik/piwik.php?idsite=13" style="border:0;" alt="" /></p></noscript>
+<noscript><p><img src="//piwik.abigga.de/piwik.php?idsite=13" style="border:0;" alt="" /></p></noscript>
 <!-- End Piwik Code -->
 
 <?php endif; ?>
